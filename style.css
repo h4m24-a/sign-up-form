@@ -121,6 +121,13 @@ input:focus {
   transition: transform 250ms;
 }
 
+.logo {
+  position: relative;
+  top: -14%;
+  left: -40%;
+  height: 0%;
+}
+
 
 /** Google sign up btn **/
 .g-sign-in-button {
