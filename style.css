@@ -23,6 +23,7 @@
   box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.3);
   border: 2px solid black;
   display: flex;
+  
 }
 
 .img-bg {
@@ -37,29 +38,34 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 55%;
+  width: 39%;
+  
 }
 
 .banner {
-  position: relative;
-  top: -3%;
-  left: 4%;
-  
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.subtext {
+  display: flex;
+  margin-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 
 #welcome {
     font-family: 'Poppins', sans-serif, Verdana;
-    font-size: 58px;
+    font-size: 60px;
 }
 
 
 .signup-form h1 {
     font-family: 'Gothic A1', sans-serif;
-    font-size: 24px;
-    position: relative;
-    top: -3%;
-    left: -8%;
+    font-size: 26px;
+    display: flex;
 }
 
 .signup-btn button {
@@ -87,7 +93,7 @@ button:hover {
 .input-group p, input {
     font-family: 'Quicksand', sans-serif;
     margin: 4px;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 
@@ -122,10 +128,11 @@ input:focus {
 }
 
 .logo {
-  position: relative;
-  top: -14%;
-  left: -40%;
-  height: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  
 }
 
 
