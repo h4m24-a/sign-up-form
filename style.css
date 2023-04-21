@@ -17,21 +17,18 @@
 }
 
 .form-wrapper {
-  width: 70rem;
-  height: 43rem;
+  width: 68rem;
+  height: 46rem;
   background-color: #fff;
-  border-radius: 10px;
   box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.3);
   border: 2px solid black;
-  padding: 12px;
   display: flex;
 }
 
 .img-bg {
   width: 45%;
   height: 100%;
-  background-image: url(https://plus.unsplash.com/premium_photo-1676922909404-c4f28af5e18b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y3J5cHRvfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60);
-  border-radius: 16px;
+  background-image: url(https://images.unsplash.com/photo-1543125940-dca0ba1cd786?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
 }
 
 
@@ -46,13 +43,14 @@
 .banner {
   position: relative;
   top: -3%;
+  left: 4%;
   
 
 }
 
 #welcome {
     font-family: 'Poppins', sans-serif, Verdana;
-    font-size: 55px;
+    font-size: 58px;
 }
 
 
@@ -61,6 +59,7 @@
     font-size: 24px;
     position: relative;
     top: -3%;
+    left: -8%;
 }
 
 .signup-btn button {
@@ -96,7 +95,7 @@ button:hover {
     outline: 0;
     border-width: 0 0 2px;
     border-color: black;
-    width: 180px;
+    width: 280px;
     margin-bottom: 15px;
     
 }
@@ -125,7 +124,7 @@ input:focus {
 
 /** Google sign up btn **/
 .g-sign-in-button {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     width: 300px;
     height: 48px;
     background-color: #fff;
