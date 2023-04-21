@@ -20,10 +20,9 @@
   width: 68rem;
   height: 46rem;
   background-color: #fff;
-  box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.5);
   border: 2px solid black;
-  display: flex;
-  
+  display: flex; 
 }
 
 .img-bg {
@@ -43,7 +42,6 @@
 }
 
 .banner {
-  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,13 +57,14 @@
 #welcome {
     font-family: 'Poppins', sans-serif, Verdana;
     font-size: 60px;
+    text-align: center;
 }
 
 
 .signup-form h1 {
     font-family: 'Gothic A1', sans-serif;
     font-size: 26px;
-    display: flex;
+    text-align: center;
 }
 
 .signup-btn button {
@@ -93,7 +92,7 @@ button:hover {
 .input-group p, input {
     font-family: 'Quicksand', sans-serif;
     margin: 4px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 
@@ -102,14 +101,20 @@ button:hover {
     border-width: 0 0 2px;
     border-color: black;
     width: 280px;
-    margin-bottom: 15px;
+    margin-bottom: 24px;
     
 }
 
-input:focus {
+
+
+input:invalid {
+    border-color: red;
+}
+    
+input:valid {
     border-color: green;
-    outline: 1px none #000
-    }
+}
+
 
   
 .signedin {
