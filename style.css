@@ -209,3 +209,16 @@ input:placeholder-shown { border-color: black; }
     text-align: center;
     
   }
+
+@media screen and (max-width: 600px) {
+  .img-bg {
+    border-radius: 0;
+  }
+  .signup-form {
+    width: fit-content;
+  }
+  
+  .form-wrapper {
+  border-radius: 0%;
+  }
+}
