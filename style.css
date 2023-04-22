@@ -84,6 +84,8 @@
     margin-top: 18px;
     cursor: pointer;
     transition: transform 250ms;
+    display: flex;
+    justify-content: center;
 }
 
 button:hover {
@@ -163,6 +165,8 @@ input:placeholder-shown { border-color: black; }
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .25);
     transition: background-color .218s, border-color .218s, box-shadow .218s;
     transition: transform 250ms;
+    display: flex;
+    justify-content: center;
   }
   
   .g-sign-in-button:hover {
