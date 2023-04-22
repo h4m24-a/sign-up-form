@@ -73,7 +73,7 @@
     width: 300px;
     height: 48px;
     padding: 10px;
-    background-color: #70b18a;
+    background-color: #4bae6f;
     color: black;
     border: 1px solid black;
     font-family: "Quicksand", arial, sans-serif;
@@ -87,9 +87,13 @@
 }
 
 button:hover {
-  background-color: #46aa6e;
-  transform: translateY(-10px);
+  background-color: #35a361;
+  transform: translateY(-5px);
 }
+
+button:active {
+  background-color: #41ad69;
+  }
 
 .input-group p, input {
     font-family: 'Quicksand', sans-serif;
@@ -127,7 +131,7 @@ input:placeholder-shown { border-color: black; }
 }
 
 .signedin span {
-  color: #70b18a;
+  color: #4bae6f;
   cursor: pointer;
 }
 
@@ -165,7 +169,7 @@ input:placeholder-shown { border-color: black; }
     cursor: pointer;
     -webkit-box-shadow: 0 0 3px 3px rgba(66, 133, 244, .3);
     box-shadow: 0 0 3px 3px rgba(66, 133, 244, .3);
-    transform: translateY(-10px);
+    transform: translateY(-5px);
   }
   
   .g-sign-in-button:active {
