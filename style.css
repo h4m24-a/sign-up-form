@@ -210,7 +210,7 @@ input:placeholder-shown { border-color: black; }
   }
 
 
-.logobtn button {
+#join {
   display: none;
 }
 
