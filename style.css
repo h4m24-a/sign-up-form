@@ -62,6 +62,13 @@
     text-align: center;
 }
 
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
 
 .signup-form h1 {
     font-family: 'Gothic A1', sans-serif;
@@ -127,9 +134,10 @@ input:placeholder-shown { border-color: black; }
 
 
   
-.signedin {
+.signedin , .signedup2 {
   font-family: 'Quicksand', sans-serif;
   margin-top: 2rem;
+  text-align: center;
 }
 
 .signedin span {
@@ -142,13 +150,23 @@ input:placeholder-shown { border-color: black; }
   transition: transform 250ms;
 }
 
-.logo {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  
+
+
+#signedup2 {
+  display: none;
 }
+
+#signedup2 span:hover {
+  font-weight: bold;
+  transition: transform 250ms;
+}
+
+#spanbtn2 {
+  color: #33A5FF;
+  cursor: pointer;
+}
+
+
 
 
 /** Google sign up btn **/
