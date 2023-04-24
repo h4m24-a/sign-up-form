@@ -17,10 +17,3 @@ function spanSign() {
   document.getElementById("youremail").style.display = "none";
   document.getElementById("youremail").style.display = "none";
 }
-
-
-document.querySelector("#join").addEventListener("click", function () {
-  document.querySelector("#signscroll").scrollIntoView({
-    behavior: "smooth",
-  });
-});
