@@ -12,9 +12,10 @@
 
     <div class="container">
         <div class="form-wrapper">
+
           <div class="img-bg">
             <div class="logobtn">
-              <a  id="join" href="#joinupbtn" type="button">Join Now</a> 
+              <a id="join" href="#joinupbtn" type="button">Join Now</a> 
             </div>
           </div>
 
@@ -22,49 +23,55 @@
             <div class="logo">
               <img src="/images/signuplogo.png" width="100px" height="100px"  alt="shoe">
             </div>
+
             <div class="banner">
               <h1 id="welcome">Welcome.</h1>
             </div>
 
             <div class="subtext">
-              <h1>Sign up to Ruche</h1>
+              <h1 id="signtoruche">Sign up to Ruche</h1>
+            </div>
+
+            <div id="name" class="input-group">
+                <p id="name" >Your name</p>
+              <input  id="name" type="text" placeholder="John Doe" required/>
             </div>
 
             <div class="input-group">
-                <p>Your name</p>
-              <input  type="text" placeholder="John Doe" required/>
+                <p id="youremail">Your email</p>
+              <input id="email"  type="email" placeholder="jdoe@test.com" required/>
             </div>
 
             <div class="input-group">
-                <p>Your email</p>
-              <input  type="email" placeholder="jdoe@test.com" required/>
-            </div>
-
-            <div class="input-group">
-                <p>Create a password</p>
-              <input  type="password" placeholder="Set up a password"  minlength="6" required/>
+                <p id="createpassword">Create a password</p>
+              <input id="password"  type="password" placeholder="Set up a password"  minlength="6" required/>
             </div>
 
             <div class="signup-btn">
-                <button type="submit">Sign Up</button>
+                <button id="signupBtn" type="submit">Sign Up</button>
 
                 <div class="g-sign-in-button">
                     <div class="content-wrapper">
                       <div class="logo-wrapper">
                         <img src="https://developers.google.com/identity/images/g-logo.png">
                       </div>
-                      <span class="text-container">
+                      <span id="googletext" class="text-container">
                         <span>Sign up with Google</span>
                       </span>
                     </div>
                   </div>
-            <div class="signedin">
-              <p>Already have an account? <span>Sign-in instead</span></p>
-            </div>
-                
+
+            <div id="signedin" class="signedin">
+              <p>Already have an account? <span id="spanbtn">Sign-in instead</span></p>
+              </div>
+
+              <div id="signedup2" class="signedup2">
+                <p>Don't have an account? <span id="spanbtn2">Sign-up</span></p>
+            </div> 
             </div>
 
           </form>
+
         </div>
       </div>
     
